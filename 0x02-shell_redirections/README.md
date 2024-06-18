@@ -1,11 +1,5 @@
-# # 0x02-shell_redirections
-# ## Scripts Description
-# ## 0-hello_world
+# ### 3-twofiles
 # #### Usage
 # ```
-# ./0-hello_world
-# ```
-# Output:
-# ```
-# Hello, World
+# ./3-twofiles
 # ```
