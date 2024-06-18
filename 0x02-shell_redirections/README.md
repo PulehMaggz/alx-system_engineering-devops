@@ -1,6 +1,7 @@
-# ### 3-twofiles
-# This script displays the content of `/etc/passwd` and `/etc/hosts`.
+# ### 4-firstlines
+# This script displays the first 10 lines of `/etc/passwd`.
+#
 # #### Usage
 # ```
-# ./3-twofiles
+# ./4-firstlines
 # ```
