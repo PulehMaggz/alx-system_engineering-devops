@@ -1,7 +1,7 @@
-# ### 4-lastlines
-# This script displays the last 10 lines of `/etc/passwd`.
+# ### 7-file
+# This script creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending with a new line.
 #
 # #### Usage
 # ```
-# ./4-lastlines
+# ./7-file
 # ```
