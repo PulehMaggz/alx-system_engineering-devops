@@ -1,7 +1,7 @@
-# ### 4-firstlines
-# This script displays the first 10 lines of `/etc/passwd`.
+# ### 4-lastlines
+# This script displays the last 10 lines of `/etc/passwd`.
 #
 # #### Usage
 # ```
-# ./4-firstlines
+# ./4-lastlines
 # ```
