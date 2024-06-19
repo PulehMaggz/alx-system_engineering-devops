@@ -2,4 +2,4 @@
 # Create a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) and write "Best School" followed by a newline.
 
 filename='*\\"Best School"\'\\*$\?\*\*\*\*\*:)'
-echo -e "Best School\n" > "$filename"
+echo "Best School" > "$filename"
