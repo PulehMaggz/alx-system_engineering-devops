@@ -1,5 +1,2 @@
 #!/bin/bash
-# Create a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) and write "Best School" followed by a newline.
-
-filename='*\\"Best School"\'\\*$\?\*\*\*\*\*:)'
-echo "Best School" > "$filename"
+echo "Best School" > ./\*\\\'\"Best\ School\"\\\'\\\$\?\\\*\\\*\\\*\\\*\\\*\\\:\)
