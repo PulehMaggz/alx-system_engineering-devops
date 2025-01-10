@@ -1,31 +1,18 @@
 # Configuration Management with Puppet
 
 ## Project Overview
-This project demonstrates the basics of configuration management using Puppet. The goal is to automate system administration tasks by creating and managing resources with Puppet manifests.
+This project demonstrates how to automate system administration tasks using Puppet, a configuration management tool. The tasks include creating files, installing packages, and executing commands on a system.
 
-### Task: Create a File
-Using Puppet, this task creates a file `/tmp/school` with the following properties:
-- **File path**: `/tmp/school`
+### Task 0: Create a File in /tmp
+In this task, we use Puppet to create a file at `/tmp/school` with specific properties:
+- **File Path**: `/tmp/school`
 - **Permissions**: `0744`
 - **Owner**: `www-data`
 - **Group**: `www-data`
 - **Content**: `I love Puppet`
 
-### Requirements
-- All Puppet manifests must:
-  - Pass `puppet-lint` version 2.1.1 without errors.
-  - Run without any execution errors.
-  - Begin with a comment describing the purpose of the manifest.
-  - End with the `.pp` extension.
-- All files will be interpreted on Ubuntu 20.04 LTS.
-- A new line must be present at the end of each file.
-
-### Files
-- `0-create_a_file.pp`: A Puppet manifest to create the `/tmp/school` file with the specified properties.
-
-### How to Run
-1. Install Puppet and Puppet Lint if not already installed:
+#### Steps:
+1. **Puppet Manifest**: Create a Puppet manifest (`0-create_a_file.pp`) to define the file and its properties.
+2. **Run the Puppet Apply Command**:
    ```bash
-   sudo apt update
-   sudo apt install puppet
-   gem install puppet-lint
+   puppet apply 0-create_a_file.pp
