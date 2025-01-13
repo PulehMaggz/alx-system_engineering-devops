@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script displays the content of the current directory
+# in a list format, showing only the part after the first dash
+
+for file in *; do
+  # Check if it's a file or directory and ignore hidden files
+  if [[ -f "$file" || -d "$file" ]]; then
+    # Using cut to display part of the filename after the first dash
+    echo "$file" | cut -d'-' -f2-
+  fi
+done
