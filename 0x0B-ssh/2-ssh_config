@@ -1,6 +1,4 @@
 # SSH Configuration for connecting to a server without a password
-Host myserver
-    HostName 54.82.176.70
-    User ubuntu
+Host *
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
