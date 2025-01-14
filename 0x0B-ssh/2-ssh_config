@@ -1,4 +1,4 @@
-# SSH Configuration for connecting to a server without a password
+# SSH Client Configuration to use private key for authentication and disable password authentication
 Host *
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
