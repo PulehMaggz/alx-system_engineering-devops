@@ -1,0 +1,22 @@
+
+verview
+This project focuses on configuring and managing web servers. Tasks include creating Bash scripts for server automation, transferring files, and setting up configurations without manual intervention. The aim is to improve automation skills and reduce repetitive tasks.
+
+## Requirements
+- Allowed editors: `vi`, `vim`, `emacs`
+- All files will be interpreted on Ubuntu 16.04 LTS
+- All Bash script files must:
+  - End with a new line
+  - Be executable
+  - Pass Shellcheck (version 0.3.7) without errors
+  - Start with `#!/usr/bin/env bash`
+  - Include a comment explaining what the script does as the second line
+- Avoid using `systemctl` for restarting a process
+
+## Task: File Transfer Script
+### Description
+Write a Bash script (`0-transfer_file`) to automate transferring a file from a client to a server.
+
+### Usage
+```bash
+./0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY
