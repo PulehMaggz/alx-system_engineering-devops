@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script installs and configures Nginx to serve a Hello World page
+
+# Update package index and install Nginx
+apt-get update -y
+apt-get install nginx -y
+
+# Create an HTML file in the Nginx root directory
+echo "Hello World!" > /var/www/html/index.html
+
+# Restart Nginx without using systemctl
+service nginx restart
